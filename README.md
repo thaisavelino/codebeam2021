@@ -163,9 +163,9 @@ As imagens ficam na pasta Public, organizadas da sequite forma:
 **Public/keynotes, Public/panels ou Public/talks**
 
 #### Onde encontrar o CSS?
-Dentro da pasta de cada sessão tem o CSS dele, e é nesse arquivo que colocamos coisas específicas.
-O css global fica em **src/globals.scss** nele colocamos as fonte, reset padrão, e tudo que é global do projeto
-A home é uma página então tem CSS próprio, que fica em **src/Home.module.scss**
+* Dentro da pasta de cada sessão temos o CSS dela, para colocamos coisas específicas.
+* O css global fica em **src/globals.scss** nele colocamos as fonte, reset padrão, e tudo que é global do projeto
+* A home é uma página então tem CSS próprio, que fica em **src/Home.module.scss**
 
 
 Se precisarem de alguma ajuda, podem chamar @ThaisAvelino
