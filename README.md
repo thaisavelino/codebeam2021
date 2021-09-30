@@ -57,20 +57,30 @@ https://github.com/felipecotto/codebeam2021
 
 1. Primeiro abre o terminal e escolha aonde quer salvar seu projeto. Vamos salvar no Desktop, neste exemplo:
 
-ˋˋˋcd Desktopˋˋˋ
+```
+cd Desktop
+```
  
 2. Git clone no repositorio, para trazer o código do site para seu computador:
+
+```
 git clone git@github.com:felipecotto/codebeam2021.git codebeam
+```
 
 Neste comando estamos fazendo o clone do repositório e colocando tudo em uma pasta chamada "codebeam"
 
 3. Instale as dependências. Para isso precisa entrar na pasta do codebeam
 
-entre na pasta codebeam
-ˋˋˋcd codebeamˋˋˋ
+Entre na pasta codebeam
+```
+cd codebeam
+```
 
-instale as dependencias
-ˋˋˋnpm install
+Instale as dependencias
+
+```
+npm install
+```
 
 *se não tiver o npm instalado na máquina, vai precisar instalar. Se precisar, peça ajuda ao meu amigo:
 https://www.google.com/
@@ -79,7 +89,7 @@ https://www.google.com/
 4. Vamos ver se está funcionando? 
 
 Rode o servidor para ver o projeto compilado localmente:
-ˋˋˋnpm run dev
+```npm run dev```
 
 Entre no navegador para ver a landing page:
 http://localhost:3000
@@ -95,37 +105,46 @@ Bom, se tudo deu certo até aqui, você já pode começar a trabalhar no código
 1. Trabalhar em homologação primeiro
 Quando estiver fazendo atualizações no código, trabalhe na branch develop, que é a de homologação.
 
-ˋˋˋgit checkout develop
+```git checkout develop```
 
 2. Publique o código em homologação, para outras pessoas fazerem o QA
 Quando quiser publicar o código no ambiente de homologação e qualquer pessoa poderá revisá-lo no endereço para testes:
 
-https://codebeambr-homol.vercel.app/
+[https://codebeambr-homol.vercel.app/](https://codebeambr-homol.vercel.app/)
 
 Veja em qual branch está:
-ˋˋˋgit branch
+```git branch```
 
 Vá para branch develop:
-ˋˋˋgit checkout develop
+```git checkout develop```
 
 Quando quiser publicar o código em homologação:
-ˋˋˋgit add .
+
+```
+git add .
 git commit -am “seu comentário”
-git push origin developˋˋˋ
+git push origin develop
+```
 
 
 
 ### Publicar o site em produção:
 Quando tudo estiver certo. Mude para a branch main e dê um push, que a nova versão será publicada em produção no site da Code Beam BR:
-https://www.codebeambr.com/
+[CodeBeamBR](https://www.codebeambr.com/)
 
 *Certifique-se de que deu o push na develop, nos passos anteriores*
 
 Vá para a branch main:
-ˋˋˋgit checkout main
+
+```
+git checkout main
+```
 
 Traga o código que fez na branch develop para cá:
-ˋˋˋgit pull origin develop
+
+```
+git pull origin develop
+```
 
 
 
