@@ -155,17 +155,17 @@ git pull origin develop
 #### Onde encontrar as imagens?
 As imagens ficam na pasta Public, organizadas da sequite forma:
 
-Ícones do footer ficam na pasta:
-Public/icons
-Os vídeos da home, ficam em:
-Public/thumbs
-As fotos dos palestrantes ficam nas pastas referente ao tipo de apresentação:
-Public/keynotes, Public/panels ou Public/talks
+* Ícones do footer ficam na pasta:
+**Public/icons**
+* Os vídeos da home, ficam em:
+**Public/thumbs**
+* As fotos dos palestrantes ficam nas pastas referente ao tipo de apresentação:
+**Public/keynotes, Public/panels ou Public/talks**
 
 #### Onde encontrar o CSS?
 Dentro da pasta de cada sessão tem o CSS dele, e é nesse arquivo que colocamos coisas específicas.
-O css global fica em src/globals.scss nele colocamos as fonte, reset padrão, e tudo que é global do projeto
-A home é uma página então tem CSS próprio, que fica em src/Home.module.scss 
+O css global fica em **src/globals.scss** nele colocamos as fonte, reset padrão, e tudo que é global do projeto
+A home é uma página então tem CSS próprio, que fica em **src/Home.module.scss**
 
 
 Se precisarem de alguma ajuda, podem chamar @ThaisAvelino
