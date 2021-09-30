@@ -34,18 +34,26 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
+
 _________________
+
+_________________
+
 
 # Guia em Português para colaboradores BR
 
+
 O Design e todas as imagens do projeto estão no Figma
+
 
 
 Repositório do github :
 https://github.com/felipecotto/codebeam2021
 
 
+
 ## Como colaborar no projeto?
+
 
 1. Primeiro abre o terminal e escolha aonde quer salvar seu projeto. Vamos salvar no Desktop, neste exemplo:
 
@@ -77,7 +85,11 @@ npm run dev
 http://localhost:3000
 
 
+
+
 ## Como fazer a codificação?
+
+
 Bom, se tudo deu certo até aqui, você já pode começar a trabalhar no código.
 
 1. Trabalhar em homologação primeiro
@@ -101,6 +113,7 @@ git commit -am “seu comentário”
 git push origin develop
 
 
+
 ### Publicar o site em produção:
 Quando tudo estiver certo. Mude para a branch main e dê um push, que a nova versão será publicada em produção no site da Code Beam BR:
 https://www.codebeambr.com/
@@ -114,7 +127,10 @@ Traga o código que fez na branch develop para cá:
 git pull origin develop
 
 
+
+
 ## Dúvidas sobre a organização dos arquivos :
+
 
 **Onde encontrar as imagens?**
 As imagens ficam na pasta Public, organizadas da sequite forma:
