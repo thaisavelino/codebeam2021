@@ -48,7 +48,7 @@ O Design e todas as imagens do projeto estão no Figma
 
 
 Repositório do github :
-https://github.com/felipecotto/codebeam2021
+[https://github.com/thaisavelino/codebeam2021](https://github.com/thaisavelino/codebeam2021)
 
 
 
