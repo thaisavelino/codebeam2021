@@ -64,10 +64,11 @@ cd Desktop
 2. Git clone no repositorio, para trazer o código do site para seu computador:
 
 ```
-git clone git@github.com:felipecotto/codebeam2021.git codebeam
+git clone git@github.com:thaisavelino/codebeam2021.git codebeam
 ```
 
 Neste comando estamos fazendo o clone do repositório e colocando tudo em uma pasta chamada "codebeam"
+
 
 3. Instale as dependências. Para isso precisa entrar na pasta do codebeam
 
@@ -77,7 +78,6 @@ cd codebeam
 ```
 
 Instale as dependencias
-
 ```
 npm install
 ```
@@ -93,6 +93,7 @@ Rode o servidor para ver o projeto compilado localmente:
 
 Entre no navegador para ver a landing page:
 http://localhost:3000
+
 
 
 
