@@ -147,7 +147,13 @@ Traga o código que fez na branch develop para cá:
 git pull origin develop
 ```
 
+Dê um push na main para colocar o código em Prod:
 
+```
+git add .
+git commit -am “seu comentário”
+git push origin main
+```
 
 
 ## Dúvidas sobre a organização dos arquivos :
